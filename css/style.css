@@ -51,6 +51,7 @@ h3{
 .mountain{
     position: relative;
     margin: 0;
+    width:60%;
     top: 4px;
 }
 .gohan{
