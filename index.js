@@ -27,24 +27,24 @@ function mlay(amount){
 document.getElementById("motsr1").ondblclick=function(){
     document.getElementById("par1").innerHTML="Name :"+m1.Name+"<br>"+
                                               "HairColor :"+m1.HairColor+"<br>"+
-                                              mlay(m1.amount);
+                                              mlay(m1.amount)+"<br>";
     document.getElementById("par1").style.display= "block"; 
-    document.getElementById("kakrot").style.display= "block"; 
+    document.getElementById("kakrot").style.display= "grid"; 
 };
 document.getElementById("motsr2").ondblclick=function(){
     document.getElementById("par2").innerHTML="Name :"+m2.Name+"<br>"+
                                               "HairColor :"+m2.HairColor+"<br>"+
-                                               mlay(m2.amount);
+                                               mlay(m2.amount)+"<br>";
     document.getElementById("par2").style.display= "block"; 
-    document.getElementById("gohan").style.display= "block"; 
+    document.getElementById("gohan").style.display= "grid"; 
 
 };
 document.getElementById("motsr3").ondblclick=function(){
     document.getElementById("par3").innerHTML="Name :"+m3.Name+"<br>"+
                                               "HairColor :"+m3.HairColor+"<br>"+
-                                               mlay(m3.amount);
+                                               mlay(m3.amount)+"<br>";
     document.getElementById("par3").style.display= "block"; 
-    document.getElementById("vegeta").style.display= "block"; 
+    document.getElementById("vegeta").style.display= "grid"; 
 };
 
 document.getElementById("motsr1").onclick=function(){
